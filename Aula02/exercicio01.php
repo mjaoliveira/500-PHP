@@ -6,9 +6,9 @@ $nota = ($n1 + $n2)/2 ;
 
 
 if ($nota >= 7) {
-	echo "APROVADO";
+	echo "Sua nota foi $nota e está com status de APROVADO";
 }elseif ($nota >= 5 and $nota < 7) {
-	echo "RECUPERACAO";
+	echo "Sua nota foi $nota e está com status de RECUPERACAO";
 }elseif($nota < 5){
-	echo "REPROVADO";
+	echo "Sua nota foi $nota e está com status de REPROVADO";
 }
