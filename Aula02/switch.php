@@ -17,7 +17,7 @@ switch ($nome) {
 	
 	default:
 		echo "E ae Estranho";
-		break;
+		
 }
 
 ?>
