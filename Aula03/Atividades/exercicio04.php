@@ -48,7 +48,7 @@ echo "<hr>";
 $a = 10;
 
 for ($a=10; $a <=50 ; $a++) { 
-	if ($a *= 5) {
+	if ($a % 5 == 0) {
 		continue;
 	}
 	echo "$a...";
