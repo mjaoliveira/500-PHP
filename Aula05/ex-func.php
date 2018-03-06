@@ -36,3 +36,22 @@ function maiorIdade($idade){
 }
 
 echo maiorIdade (25);
+
+echo "<hr>";
+
+function podeDirigir($pessoa){
+	if ($pessoa["idade"]  >= 18 and $pessoa ["temHabilitacao"]) {
+		return "Pode Dirigir";
+	}else{
+		return "Nao pode dirigir";
+	}
+}
+
+$marcelo = [
+	'nome' => 'Marcelo',
+	'idade'=> 28,
+	'temHabilitacao' => true
+	];
+
+echo podeDirigir($marcelo);
+echo podeDirigir($marcelo['idade'],$marcelo['temHabilitacao']);
